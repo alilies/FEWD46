@@ -6,7 +6,7 @@
 
     <style>
 
-div.header {
+header {
   background-color: #c4c4c4;
   font-family: Lucida Grande;
   color: white;
@@ -14,8 +14,7 @@ div.header {
   margin: -10px;
   padding: 20px;
   border: 3px;
-  box-shadow: 0px 2px 10px -2px;
-
+  box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.5);
 }
 
 button {
@@ -26,12 +25,11 @@ button {
   display: inline-block;
   font-size: 18px;
   border: none;
-  margin: 50px;
   width: 100px;
   height: 40px;
 }
 
-div.main {
+main {
   background-color: white;
   border-radius: 5px;
   align: center;
@@ -43,35 +41,39 @@ div.main {
   margin-right: auto;
   margin-top: 50px;
   padding: 30px;
-  box-shadow: 0px 2px 20px -2px;
+  box-shadow: 0px 2px 20px -2px rgba(0,0,0,0.5);
   width: 60%;
 
 }
 
 ul {
-  float: right;
+  text-align: right;
   list-style-type: none;
-  margin: -30px;
+  margin: 0px;
   padding: 0;
 }
 
 li {
   display: inline;
+  margin: 10px;
 }
 
 body {
   background: url("http://cloud.avandamiri.com/image/3N410e2Q2Z3F/background.png");
 }
 
-h {
-  padding: 50px; 
+hr {
+  width: 65%;
+  height: 0;
+  box-shadow: 0px 1px 0px 0px rgba(255,255,255,1);
 }
 
-div.footer {
+
+footer {
   color: #999999;
   font-family: Lucida Grande;
-  margin-left: 50%;
-  margin-top: 100px;
+  margin-left: 45%;
+  margin-top: 30px;
 }
 
     </style>
@@ -80,25 +82,27 @@ div.footer {
 
   <body>
 
-    <div class="header">
-    <img src="http://f.cl.ly/items/05361u3R0D3i1c2y2203/acme-corp.jpg" alt="acme corp logo" width="20%" height="20%"></img>
+    <header>
+    <img src="http://f.cl.ly/items/05361u3R0D3i1c2y2203/acme-corp.jpg" alt="acme corp logo" width="15%" height="15%" style="float:left"></img>
     <ul>
       <li>Products</li>
       <li><button>Sign Up</button></li>
     </ul>
-    </div>
+   </header>
 
-    <div class="main">
+    <main>
       <h1> Welcome to ACME Corp!</h1>
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+    </main>
+
+<br><br>
 
   <hr></hr>
 
-    <div class="footer"
+    <footer>
       <p>Copyright, 2015</p>
-    </div>
+    </footer>
 
   </body>
 
