@@ -39,6 +39,34 @@ header {
   width: 200px;
   height: 100px;
   float: left;
+  padding: 20px;
+}
+
+.form {
+  padding: 10px;
+}
+
+.validation:invalid {
+  border: 2px solid red;
+  border-radius: 2px;
+}
+
+.validation:valid {
+  border: 2px solid green;
+}
+
+.validation:focus {
+  border: 2px solid black;
+  outline: none;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+#tos {
+  width: 500px;
 }
 
 main {
@@ -55,8 +83,8 @@ main {
 }
 
 ul {
-  text-align: right;
   list-style-type: none;
+  text-align: right;
   margin: 0px;
   padding: 0;
 }
