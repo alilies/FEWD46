@@ -69,6 +69,9 @@ label {
   width: 500px;
 }
 
+.pickone {
+  line-height: 0em;
+}
 main {
   background-color: white;
   border-radius: 5px;
