@@ -65,13 +65,15 @@ label {
   width: 100px;
 }
 
+.pickone {
+  padding: 0px;
+  display: block;
+}
+
 #tos {
   width: 500px;
 }
 
-.pickone {
-  line-height: 0em;
-}
 main {
   background-color: white;
   border-radius: 5px;
