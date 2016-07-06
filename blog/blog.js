@@ -17,6 +17,6 @@ function comment(event) {
   var newContent = document.createTextNode("You're looking good!");
   var container = document.querySelector("#comments")
   newComment.appendChild(newContent);
-  newComment.classList.add("comment");
   container.appendChild(newComment);
+  newComment.classList.add("comment");
   }
