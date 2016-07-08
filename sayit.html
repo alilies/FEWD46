@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+            <head>
+                        <meta charset="utf-8">
+                        <title>Comments</title>
+            </head>
+            <body>
+
+<input type="text" class="input1" name="input1" placeholder="say something">
+<button>Say It</button>
+
+<script type="text/javascript">
+function sayIt(){
+  var input1 = document.querySelector("input.input1");
+  var p = document.createElement("p");
+  p.textContent = input1.value;
+  document.body.appendChild(p);
+}
+
+  var button = document.querySelector("button");
+  button.addEventListener("click", sayIt);
+</script>
+
+
+            </body>
+</html>
