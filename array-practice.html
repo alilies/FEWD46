@@ -1,0 +1,42 @@
+<p>
+  There are <span id="count">0</span> students in the class:
+</p>
+
+<ol>
+</ol>
+
+<script>
+var students = [
+  "Aziza",
+  "Christine",
+  "Elisa",
+  "Gabriel",
+  "Jake",
+  "Megan",
+  "Nadine",
+  "Nour",
+  "Paige",
+  "SoRa",
+  "Tiana"
+];
+</script>
+
+<script>
+//student is just a string you're calling all the strings in your array
+function showList(student) {
+var ol = document.querySelector("ol");
+var listItem = document.createElement("li");
+
+//passing in string to the text content
+listItem.textContent = student;
+ol.appendChild(listItem);
+var span = document.querySelector("#count");
+span.textContent = students.length;
+}
+
+students.forEach(showList)
+
+// Your code goes here:
+// 1. Add each student to the main <ol>
+// 2. Change the 0 to reflect the number of students in the array
+</script>

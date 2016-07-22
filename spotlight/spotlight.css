@@ -1,0 +1,29 @@
+.div {
+  display:block;
+}
+
+.spotlight {
+  border-radius: 10px;
+  width: 140px;
+  height: 400px;
+  background-color: #ffcc33;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}

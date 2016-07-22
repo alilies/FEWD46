@@ -1,0 +1,15 @@
+When you click on the button, it takes the class away from the welcome div.
+#start, #welcome, your event listener needs to be outside the function
+Indent the format.
+You want to unhide it only, but now you take away all the classes.
+
+Trying to convert fahrenheit to celsius.
+parse.int > (parseFloat(f)- 32) * 5/9;
+float passes in decimals
+output.texContent = fToc(input.value);
+undefined variable f
+return(parseFloat(f)-32 *5/9;
+
+convert is an event handler
+function convert(event)
+some browsers don't handle event without it being in the function (ie firefox)
