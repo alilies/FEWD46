@@ -21,18 +21,17 @@ function formSubmitted(event) {
   var input = document.querySelector("#query");
   var url = ("https://api.github.com/users/") + input.value;
   get(url, showInfo);
-  form.reset();
 }
 
 function showInfo(data){
   var accountDeets = JSON.parse(data);
-  //need to query selector for user-name
   var userName = document.querySelector("#user-name");
   userName.textContent = accountDeets.name;
   var userBio = document.querySelector("#user-bio");
   userBio.textContent = accountDeets.bio;
   var img = document.createElement("img");
   img.setAttribute("src", accountDeets.avatar_url);
-  var userPicture = document.querySelector("#user-picture")
+  var userPicture = document.querySelector("#user-picture");
+  userPicture.textContent = "";
   userPicture.appendChild(img);
 }

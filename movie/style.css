@@ -1,0 +1,59 @@
+* { box-sizing: border-box; }
+
+.green-li {
+  color: rgb(72, 196, 170);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.grey-li {
+  color: #999999;
+  font-size: 16px;
+  border-bottom: thin solid #999999;
+  padding: 10px 0;
+}
+
+body {
+  margin: 0;
+  background: #f1f0f5;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+main {
+  margin: 2em auto;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+  background: white;
+  padding: 2em 3em;
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+.buttonish {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom-width: 2px;
+  border-radius: 5px; font-size: inherit;
+  padding: .5em 1em;
+  cursor: pointer;
+}
+
+button {
+  color: white;
+  width: 28%;
+  background-color: rgb(72, 196, 170);
+}
+
+#query {
+  width: 70%;
+}
+
+#search-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#search-list li {
+  margin-top: 0.75em;
+  padding-top: 0.75em;
+}
