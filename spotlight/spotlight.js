@@ -24,8 +24,8 @@ function greenLight() {
 function blinkingLight() {
   setInterval(flash, 1000);
   function flash() {
-  $(".yellow-circle").removeClass("red-light");
-  $(".yellow-circle").removeClass("green-light");
+  $(".red-circle").removeClass("red-light");
+  $(".green-circle").removeClass("green-light");
   $(".yellow-circle").toggleClass("yellow-light");
   }
 }
