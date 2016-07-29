@@ -2,33 +2,42 @@
   display:block;
 }
 
+.button {
+  margin-bottom: 20px;
+}
+
 .spotlight {
   border-radius: 10px;
+  margin: auto;
   width: 140px;
   height: 400px;
   background-color: #ffcc33;
-  position: fixed;
 }
 
 .circle {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  background-color: black;
+  background-color: rgb(88, 79, 70);
   position: relative;
-  top: 10%;
-  left: 10%;
+  top: 5%;
+  left: 15%;
   margin-bottom: 20px;
+  border: solid black;
+  border-width: 6px 2px 2px 2px;
 }
 
-.red {
+.red-light {
   background-color: red;
-}
+  box-shadow: 0 0 10px rgb(193,66,34);
 
-.yellow {
+}
+.yellow-light {
   background-color: yellow;
+  box-shadow: 0 0 10px rgb(254,236,84);
 }
 
-.green {
+.green-light {
   background-color: green;
+  box-shadow: 0 0 10px rgb(95,194,60);
 }
