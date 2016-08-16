@@ -1,0 +1,29 @@
+body {
+  font-family: helvetica;
+  font-size: 16px;
+}
+
+.dropdown {
+  width: 220px;
+  height: 30px;
+  border: 1px solid #000;
+  font: inherit;
+}
+
+button {
+  width: 220px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: white;
+  background-color: blue;
+  font: inherit;
+}
+
+.image-results {
+  width: 200px;
+}
+
+.total-results {
+  padding: 20px;
+}

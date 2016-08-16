@@ -12,6 +12,7 @@ var form = document.querySelector("#new-comment");
 form.addEventListener("submit", commenting);
 
 function commenting(event) {
+  debugger;
   event.preventDefault();
   var newComment = document.createElement("div");
   // creates a new div called newComment

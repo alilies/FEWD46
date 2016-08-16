@@ -5,7 +5,9 @@ var list = document.querySelector("#todo-list");
 function formSubmitted(event) {
   event.preventDefault();
   var ingredients = input.value.split(",");
-  ingredients.forEach(addIngredient)
+  ingredients.forEach(addIngredient);
+  localStorage.setItem("listHTML", list.innerHTML);
+  localStorage.getItem("listHTML");
   form.reset();
 }
 

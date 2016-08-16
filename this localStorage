@@ -1,0 +1,47 @@
+this
+special var
+its value is determined by the context
+(ie. you open browser = this = window)
+
+within an event handler
+this -> el that triggered event
+
+within an object
+this -> the same object
+
+local storage
+add (key, value) > setItem
+remove (key) > removeItem
+read (key) > getItem
+
+key value store (fname > avand)
+
+["milk", "cookie"] > "milk"|"cookie"
+join("|")               split("|")
+
++"ice cream"
+"milk|cookie" + "|" + "ice cream"
+
+
+item = {
+name: milk;
+dueDate: 2016;
+}
+
+JSON.stringify(items)
+
+when the page loads
+var items = JSON.parse(localStorage.getItem("items"));
+if (items != null) {
+items.forEach(displayItem);
+}
+
+when the user submits a new item
+  take the value of the input
+  create a new item object
+
+var item = { name: input.value }
+displayItem(item);
+var items = JSON.parse(localStorage.getItem("items"))
+items.push(item);
+localStorage.setItem("items, JSON.stringify(items))

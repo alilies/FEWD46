@@ -1,0 +1,33 @@
+var avand = {age:30}
+if () {
+// true (full price)
+} else {
+// false (discount)
+}
+
+if ()
+true is true
+false is false
+null is false
+"false" is true
+"" is true
+
+>
+<
+<=
+>=
+!= not equal
+== comparison (comparing value and type)
+=== comparing value only
+ie. "123" === 123
+
+A==1&&B>2
+put less computational first since both have to be true in order to run the rest
+
+&& T F
+T  T F
+F F F
+
+|| T F
+T  T T
+F T F

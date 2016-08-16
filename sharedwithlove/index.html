@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>#sharedwithlove Payout Calculator</title>
+    <link rel="stylesheet" href="css.css" media="screen" title="css" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+
+<div class="options">
+
+  <select name="brand-dropdown" class="dropdown" id="brand-dropdown">
+    <option value="Brand" disabled="disabled" selected>Brand</option>
+    <option value="Aqua">Aqua</option>
+    <option value="Clover Canyon" >Clover Canyon</option>
+    <option value="Sandro">Sandro</option>
+    <option value="Zara">Zara</option>
+  </select>
+
+  <select name="price-dropdown" class="dropdown" id="price-dropdown">
+    <option value="Price" disabled="disabled" selected>Retail Price</option>
+    <option value="100" id="100">Less than $100</option>
+    <option value="150" id="150" >$100-$199</option>
+    <option value="250" id="250">$200-$299</option>
+    <option value="350" id="350">$300-$399</option>
+    <option value="450" id="450">$400-$499</option>
+    <option value="550" id="550">$500-$599</option>
+  </select>
+
+  <select name="times-dropdown" class="dropdown" id="times-dropdown">
+    <option value="Times Rented Per Month" disabled="disabled">Times Rented Per Month</option>
+    <option value="1" selected>One Time</option>
+    <option value="2">Two Times</option>
+    <option value="3">Three Times</option>
+    <option value="4">Four Times</option>
+  </select>
+
+  <button type="button" name="calculate-payout" id="payout-button">Calculate Payout</button>
+
+</div>
+
+<div class="total-results">
+
+  <span class="payout-text">
+    Your Estimated Payout:
+  </span>
+
+  <span class="payout-price">
+  </span>
+
+  <div id="dress-container">
+  </div>
+
+</div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
