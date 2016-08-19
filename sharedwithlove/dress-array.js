@@ -14,7 +14,7 @@ var dresses = [
   }
 
   {
-    image: "dress/sandro-4.jpg"
+    image: "dress/sandro-4.jpg",
     brand: "Sandro",
     url: "https://www.sharedwlove.com/products/sandro-zig-zag-pattern-color-dress",
     retailPrice: 345

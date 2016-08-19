@@ -1,3 +1,5 @@
+
+
 body {
   font-family: helvetica;
   font-size: 16px;
@@ -26,4 +28,18 @@ button {
 
 .total-results {
   padding: 20px;
+}
+
+.dress-container {
+  margin-bottom: 30px;
+}
+
+.brand-span {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+}
+
+.image-results {
+  padding: 10px;
 }

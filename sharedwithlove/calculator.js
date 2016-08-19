@@ -198,13 +198,18 @@ function showResults(event) {
   });
 
   $("#dress-container").empty();
+  $("#brand-container").empty();
 
   searchResults.slice(0, 4).forEach(function(dress) {
       var link = $("<a>").attr("href", dress.url);
       var image = $("<img>").attr("src", dress.image).addClass("image-results");
       $(image).appendTo($(link));
       $(link).appendTo($("#dress-container"));
+    });
+
+    searchResults.slice(0, 4).forEach(function(dress) {
       var span = $("<span>").text(dress.brand);
-      span.appendTo($("#dress-container"));
+      span.addClass("brand-span");
+      span.appendTo($("#brand-container"));
     });
 }
